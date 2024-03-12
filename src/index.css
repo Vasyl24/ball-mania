@@ -1,5 +1,19 @@
 @import '../node_modules/modern-normalize/modern-normalize.css';
 
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url('./assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'),
+    url('./assets/fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf')
+      format('truetype');
+}
+
 :root {
   /* --background-color: #020202;
   --text-color: #fafafa; */
@@ -20,7 +34,7 @@
 
 body {
   color: var(--text-color);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: var(--background-color);
   /* transition: background-color 1s; */
 }
