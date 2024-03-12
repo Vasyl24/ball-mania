@@ -4,13 +4,15 @@ import img from '../../assets/overstock.png';
 
 export const OverstockBackground = styled.section`
   padding-top: 48px;
+  margin-bottom: 48px;
+
   width: 100%;
   height: 194px;
   background-image: url(${imgMob});
-  //   background-image: linear-gradient(#2e2f42b3, #2e2f42b3), url(${imgMob});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 
   //   @media screen and (min-width: 768px) {
   //     .hero-section {
@@ -26,12 +28,32 @@ export const OverstockBackground = styled.section`
   }
 `;
 
+export const Container = styled.div`
+  padding-right: 24px;
+  padding-left: 24px;
+`;
+
 export const Title = styled.h2`
-  color: var(--background-color);
+  margin-bottom: 20px;
 
   font-family: 'Open Sans';
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+
+  color: var(--background-color);
+`;
+
+export const Buybtn = styled.button`
+  padding: 12px 48px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--accent-color);
+
+  color: var(--text-color);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
   line-height: normal;
 `;

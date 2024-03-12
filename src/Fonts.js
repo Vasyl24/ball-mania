@@ -1,7 +1,7 @@
 // import { createGlobalStyle } from 'styled-components';
 
-// import Inter from '../assets/Fonts/Inter/Inter-VariableFont_slnt,wght.ttf';
-// import RedHatDisplay from '../assets/Fonts/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf';
+// import Inter from './assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf';
+// import OpenSans from './assets/fonts/Open Sans/OpenSans-VariableFont_wdth,wght.ttf';
 
 // const FontStyles = createGlobalStyle`
 //   @font-face {
@@ -10,8 +10,8 @@
 //   }
 
 //   @font-face {
-//     font-family: "Red Hat Display";
-//     src: local("Red Hat Display"), url(${RedHatDisplay}) format("truetype");
+//     font-family: "Open Sans";
+//     src: local("Open Sans"), url(${OpenSans}) format("truetype");
 //   }
 // `;
 

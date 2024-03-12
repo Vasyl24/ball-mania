@@ -1,12 +1,20 @@
 // import img from '../../assets/overstock.jpg';
-import { OverstockBackground, Title } from './Overstock.styled';
+import {
+  OverstockBackground,
+  Container,
+  Title,
+  Buybtn,
+} from './Overstock.styled';
 
 const Overstock = () => {
   return (
     <>
       {/* <Background></Background> */}
       <OverstockBackground>
-        <Title>Overstock & clearance line</Title>
+        <Container>
+          <Title>Overstock & clearance line</Title>
+          <Buybtn>Buy now</Buybtn>
+        </Container>
       </OverstockBackground>
     </>
   );
