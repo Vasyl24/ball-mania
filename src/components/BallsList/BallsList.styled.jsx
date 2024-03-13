@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Background = styled.section`
   margin-bottom: 48px;
-  margin: 0 auto;
+
   padding-left: 24px;
   padding-right: 24px;
   //   flex-grow: 1;
