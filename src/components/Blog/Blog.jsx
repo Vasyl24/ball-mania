@@ -7,9 +7,9 @@ import {
   BlogTitle,
   SeeBtn,
 } from './Blog.styled';
-import img1 from '../../assets/blog-img-1-min.jpg';
-import img2 from '../../assets/blog-img-2-min.jpg';
-import img3 from '../../assets/blog-img-3-min.jpg';
+import img1 from '../../assets/images/blog-img-1-min.jpg';
+import img2 from '../../assets/images/blog-img-2-min.jpg';
+import img3 from '../../assets/images/blog-img-3-min.jpg';
 
 const Blog = () => {
   return (

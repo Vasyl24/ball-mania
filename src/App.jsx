@@ -1,12 +1,16 @@
-// import { Main } from 'Container.styled';
+import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
+import SharedLayout from 'components/SharedLayout/SharedLayout';
 
 export const App = () => {
   return (
-    <>
-      {/* <Main> */}
-      <HomePage></HomePage>
-      {/* </Main> */}
-    </>
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        {/* <SharedLayout> */}
+        <Route index element={<HomePage />} />
+
+        {/* </SharedLayout> */}
+      </Route>
+    </Routes>
   );
 };

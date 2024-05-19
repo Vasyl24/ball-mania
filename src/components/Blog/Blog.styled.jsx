@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const BlogBackground = styled.section`
-  padding-left: 24px;
+  padding-top: 24px;
   padding-right: 24px;
+  padding-bottom: 48px;
+  padding-left: 24px;
 
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -12,8 +14,8 @@ export const BlogBackground = styled.section`
 
   @media screen and (min-width: 1440px) {
     width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 `;
 
@@ -33,7 +35,6 @@ export const BlogItem = styled.li`
     margin-bottom: 24px;
   }
 `;
-
 
 export const BlogImage = styled.img`
   margin-right: auto;

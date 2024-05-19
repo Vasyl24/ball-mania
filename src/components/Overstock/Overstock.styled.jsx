@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import imgMob from '../../assets/overstock-mob.png';
-import img from '../../assets/overstock.png';
+import imgMob from '../../assets/images/overstock-mob.png';
+import img from '../../assets/images/overstock.png';
 
 export const OverstockBackground = styled.section`
   padding-top: 48px;
-  margin-bottom: 48px;
+  padding-bottom: 40px;
 
   width: 100%;
   height: 194px;
@@ -31,6 +31,18 @@ export const OverstockBackground = styled.section`
 export const Container = styled.div`
   padding-right: 24px;
   padding-left: 24px;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 `;
 
 export const Title = styled.h2`
