@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Background = styled.section`
-  margin-bottom: 48px;
+  // margin-bottom: 48px;
+  padding-top: 48px;
+  padding-bottom: 24px;
 
   padding-left: 24px;
   padding-right: 24px;
@@ -19,8 +21,8 @@ export const Background = styled.section`
 
   @media screen and (min-width: 1440px) {
     width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 `;
 

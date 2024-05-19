@@ -15,10 +15,10 @@ import {
   DiscountAmount,
   SeeBtn,
 } from './BallsList.styled';
-import icon from '../../assets/sprite.svg';
-import img1 from '../../assets/basketball-1-min.jpg';
-import img2 from '../../assets/football-1-min.jpg';
-import img3 from '../../assets/water-polo-ball-1-min.jpg';
+import icon from '../../assets/images/sprite.svg';
+import img1 from '../../assets/images/basketball-1-min.jpg';
+import img2 from '../../assets/images/football-1-min.jpg';
+import img3 from '../../assets/images/water-polo-ball-1-min.jpg';
 
 const BallsList = () => {
   return (

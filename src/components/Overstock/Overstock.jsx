@@ -9,7 +9,6 @@ import {
 const Overstock = () => {
   return (
     <>
-      {/* <Background></Background> */}
       <OverstockBackground>
         <Container>
           <Title>Overstock & clearance line</Title>
