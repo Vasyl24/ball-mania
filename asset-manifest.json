@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/ball-mania/static/css/main.14a245d9.css",
-    "main.js": "/ball-mania/static/js/main.e1368f0f.js",
+    "main.css": "/ball-mania/static/css/main.64f777de.css",
+    "main.js": "/ball-mania/static/js/main.d3fa38ea.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/ball-mania/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
     "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/ball-mania/static/media/OpenSans-VariableFont_wdth,wght.19ba637387f1d6142f55.ttf",
     "static/media/overstock.png": "/ball-mania/static/media/overstock.e0b9ed468e0a5ef486a6.png",
-    "static/media/sprite.svg": "/ball-mania/static/media/sprite.60d8a7e34ae746270682b605fd15f729.svg",
+    "static/media/sprite.svg": "/ball-mania/static/media/sprite.272e347f3bd8195e9525bc8d7ad8d038.svg",
     "static/media/blog-img-2-min.jpg": "/ball-mania/static/media/blog-img-2-min.a239c3a000047860d1f1.jpg",
     "static/media/blog-img-1-min.jpg": "/ball-mania/static/media/blog-img-1-min.afc5b0cd1c84b23f77ad.jpg",
     "static/media/basketball-1-min.jpg": "/ball-mania/static/media/basketball-1-min.0c2322650830f9fce757.jpg",
@@ -14,11 +14,11 @@
     "static/media/blog-img-3-min.jpg": "/ball-mania/static/media/blog-img-3-min.f96d309cb47ea5b626fa.jpg",
     "static/media/water-polo-ball-1-min.jpg": "/ball-mania/static/media/water-polo-ball-1-min.fb6bdbae19fd7e21513f.jpg",
     "index.html": "/ball-mania/index.html",
-    "main.14a245d9.css.map": "/ball-mania/static/css/main.14a245d9.css.map",
-    "main.e1368f0f.js.map": "/ball-mania/static/js/main.e1368f0f.js.map"
+    "main.64f777de.css.map": "/ball-mania/static/css/main.64f777de.css.map",
+    "main.d3fa38ea.js.map": "/ball-mania/static/js/main.d3fa38ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a245d9.css",
-    "static/js/main.e1368f0f.js"
+    "static/css/main.64f777de.css",
+    "static/js/main.d3fa38ea.js"
   ]
 }
